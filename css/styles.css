@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Bold";
 }
 
+h3 {
+  color: #4E6C50;
+}
+
 p {
   color: #8f8f8f;
 }
@@ -39,7 +43,7 @@ p {
 /* Sections */
 
 .colored-section {
-  background-color: #CD0404;
+  background-color: #FAECD6;
   color: #fff;
   padding-bottom: 5%;
 }
@@ -127,10 +131,12 @@ background-repeat: no-repeat;
 /* Testimonial Section */
 
 #testimonials {
-  background-color: #CD0404;
+  background-color: #F2DEBA;
+  color: #4E6C50;
 }
 
 .testimonial-text {
+  color: #4E6C50;
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -143,7 +149,7 @@ background-repeat: no-repeat;
 
 
 #press {
-  background-color: #CD0404;
+  background-color: #fff;
   padding-bottom: 3%;
 }
 
@@ -188,4 +194,8 @@ background-repeat: no-repeat;
 
 .btn1 {
   border-radius: 50%;
+}
+
+.btn-light {
+background-color: #ECECEC0;
 }
